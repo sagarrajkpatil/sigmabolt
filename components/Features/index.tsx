@@ -14,7 +14,7 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: dataConstant.title,
+              title: "Quality With Dedication",
               subtitle: dataConstant.subtitle,
               description: dataConstant.description,
             }}
