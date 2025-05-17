@@ -54,7 +54,7 @@ const Contact = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
+              className="animate_top w-full rounded-lg bg-white p-7.5 shadow-Sigma-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
             >
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Send a message
@@ -182,7 +182,7 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <p>Dhayari, pune</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
@@ -197,7 +197,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="#">+91 42334 6343 843</a>
                 </p>
               </div>
             </motion.div>

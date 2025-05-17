@@ -39,7 +39,7 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/logo.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -56,7 +56,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  hello@Sigma.com
                 </a>
               </motion.div>
 
@@ -207,7 +207,7 @@ const Footer = () => {
                       <input
                         type="text"
                         placeholder="Email address"
-                        className="w-full rounded-full border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
+                        className="w-full rounded-full border border-stroke px-6 py-3 shadow-Sigma-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                       />
 
                       <button
@@ -301,7 +301,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Sigma. All rights reserved
               </p>
             </motion.div>
 

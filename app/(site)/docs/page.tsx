@@ -2,10 +2,10 @@ import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Docs Page - Solid SaaS Boilerplate",
+  title: "Docs Page - Sigma SaaS Boilerplate",
 
   // other metadata
-  description: "This is Docs page for Solid Pro"
+  description: "This is Docs page for Sigma Pro"
 };
 
 export default function DocsPage() {
@@ -15,7 +15,7 @@ export default function DocsPage() {
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-1/4">
-              <div className="sticky top-[74px] rounded-lg border border-white p-4 shadow-solid-4  transition-all  dark:border-strokedark dark:bg-blacksection">
+              <div className="sticky top-[74px] rounded-lg border border-white p-4 shadow-Sigma-4  transition-all  dark:border-strokedark dark:bg-blacksection">
                 <ul className="space-y-2">
                   <SidebarLink />
                 </ul>

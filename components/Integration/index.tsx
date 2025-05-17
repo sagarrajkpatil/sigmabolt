@@ -11,8 +11,8 @@ const Integration = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: `INTEGRATIONS`,
-              subtitle: `Remotely Maintain Your Data, From Anywhere, Anytime.`,
+              title: `OUR STRENGTHS`,
+              subtitle: `Our company is among the largest manufacturers, suppliers, and exporters of fasteners in India.`,
               description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
             }}
           />
@@ -57,7 +57,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
+              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-Sigma-7 dark:bg-btndark">
                 <Image
                   width={50}
                   height={50}
@@ -104,7 +104,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
+              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-Sigma-7 dark:bg-btndark">
                 <Image
                   width={50}
                   height={50}
@@ -153,7 +153,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
+              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-Sigma-7 dark:bg-btndark">
                 <Image
                   width={50}
                   height={50}
@@ -221,7 +221,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
+              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-Sigma-7 dark:bg-btndark">
                 <Image
                   width={50}
                   height={50}
@@ -270,7 +270,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
+              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-Sigma-7 dark:bg-btndark">
                 <Image
                   width={50}
                   height={50}
@@ -319,7 +319,7 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
+              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-Sigma-7 dark:bg-btndark">
                 <Image
                   width={50}
                   height={50}
