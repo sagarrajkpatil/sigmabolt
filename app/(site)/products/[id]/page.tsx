@@ -1,15 +1,21 @@
+"use client";
+
 import BlogData from "@/components/Blog/blogData";
 import BlogItem from "@/components/Blog/BlogItem";
 import { Metadata } from "next";
+import { notFound } from "next/navigation";
 
-export const metadata: Metadata = {
-  title: "Blog Page - Sigma SaaS Boilerplate",
+// export const metadata: Metadata = {
+//   title: "Sigma Industry",
+//   description: "Sigma Industry",
+// };
 
-  // other metadata
-  description: "This is Blog page for Sigma Pro"
-};
 
-const BlogPage = async () => {
+const BlogPage = ({ params }: { params: { id: string } }) => {
+
+
+  console.log(params.id)
+
   return (
     <>
       {/* <!-- ===== Blog Grid Start ===== --> */}

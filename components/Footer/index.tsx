@@ -46,7 +46,7 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sigma Bolts & Hardware's is a ISO and CE & IATF 1649:2016 certified Fasteners Manufacturer well-known name among the topmost suppliers and manufacturers of premium quality fasteners. 
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -100,7 +100,7 @@ const Footer = () => {
                         Product
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
@@ -115,11 +115,11 @@ const Footer = () => {
                       >
                         Pricing
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                   variants={{
                     hidden: {
                       opacity: 0,
@@ -175,9 +175,9 @@ const Footer = () => {
                       </a>
                     </li>
                   </ul>
-                </motion.div>
+                </motion.div> */}
 
-                <motion.div
+                {/* <motion.div
                   variants={{
                     hidden: {
                       opacity: 0,
@@ -237,7 +237,7 @@ const Footer = () => {
                       </button>
                     </div>
                   </form>
-                </motion.div>
+                </motion.div> */}
               </div>
             </div>
           </div>

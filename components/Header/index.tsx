@@ -41,17 +41,18 @@ const Header = () => {
             <Image
               src="/images/logo.png"
               alt="logo"
-              width={100}
+              width={40}
               height={30}
               className="hidden w-full dark:block"
             />
             <Image
               src="/images/logo.png"
               alt="logo"
-              width={100}
+              width={40}
               height={30}
               className="w-full dark:hidden"
-            />
+            /> 
+       
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
