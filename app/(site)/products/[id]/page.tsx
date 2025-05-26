@@ -1,7 +1,7 @@
 import BlogData from "@/components/Blog/blogData";
 import BlogItem from "@/components/Blog/BlogItem";
 
-const BlogPage = ({ params }: { params: { id: string } }) => {
+const BlogPage = () => {
   // console.log(params.id); // this will run on the server, not browser
 
   return (
