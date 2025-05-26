@@ -182,7 +182,15 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>Dhayari, pune</p>
+                <p>Shriniwas, Lagad Mala, SERENE COUNTY, Sinhgad Rd, Vadgaon Khurd, Nanded Fata, Pandurang Industrial Area, Nanded, Pune, Maharashtra 411041</p>
+                <br/>
+                <button
+                      onClick={() => window.open("https://maps.app.goo.gl/FbC6qJsHwx6qxP916")}
+                      aria-label="get started button"
+                      className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
+                    >
+                     Maps Direction
+                    </button>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
@@ -197,7 +205,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+91 42334 6343 843</a>
+                  <a href="tel: +91 89831 85004">+91 89831 85004</a>
                 </p>
               </div>
             </motion.div>

@@ -16,18 +16,18 @@ const Hero = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
-              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-              {dataConstant.bodyTitle}
-              </h4>
-              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-  
+            <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
               {dataConstant.bodySubTitle}
+              </h1>
+              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
+              <img src="/images/nut-bolt.png" />
+              {/* {dataConstant.bodySubTitle} */}
               </h1>
               <p>{dataConstant.bodyText} </p>
 
               <div className="mt-10">
                 <form onSubmit={handleSubmit}>
-                  <div className="flex flex-wrap gap-5">
+                  {/* <div className="flex flex-wrap gap-5">
                 
                     <button
                       aria-label="get started button"
@@ -35,17 +35,17 @@ const Hero = () => {
                     >
                       Read More
                     </button>
-                  </div>
+                  </div> */}
                 </form>
-      <br/>
-            <div dangerouslySetInnerHTML={{__html: dataConstant.list}}></div>
+                <br/>
+            {/* <div dangerouslySetInnerHTML={{__html: dataConstant.list}}></div> */}
                
               </div>
             </div>
 
             <div className="animate_right hidden md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
-                <Image
+                {/* <Image
                   src="/images/shape/shape-01.png"
                   alt="shape"
                   width={46}
@@ -65,22 +65,22 @@ const Hero = () => {
                   width={21.64}
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"
-                />
+                /> */}
                 <div className=" relative aspect-[700/444] w-full">
-                  <Image
+                  {/* <Image
                     className="shadow-Sigma-l dark:hidden"
-                    src="/images/hero/hero.png"
+                    src="/images/nut-bolt.png"
                     alt="Hero"
                     fill
                     style={{ objectFit: "contain" }}
                   />
                   <Image
                     className="hidden shadow-Sigma-l dark:block"
-                    src="/images/hero/hero.png"
+                    src="/images/nut-bolt.png"
                     alt="Hero"
                     fill
                     style={{ objectFit: "contain" }}
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
