@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { dataConstant } from "../DataConstant";
-
+import {products} from "../../data/products"
 const Hero = () => {
   const [email, setEmail] = useState("");
 
@@ -15,15 +15,15 @@ const Hero = () => {
       <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-70">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
-            <div className=" md:w-1/2">
+            <div className="">
             <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
               {dataConstant.bodySubTitle}
               </h1>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-              <img src="/images/nut-bolt.png" />
+              <img src="/images/nut-bolt1-r.png" />
               {/* {dataConstant.bodySubTitle} */}
               </h1>
-              <p>{dataConstant.bodyText} </p>
+              {/* <p>{dataConstant.bodyText} </p> */}
 
               <div className="mt-10">
                 <form onSubmit={handleSubmit}>
@@ -43,46 +43,21 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="animate_right hidden md:w-1/2 lg:block">
-              <div className="relative 2xl:-mr-7.5">
-                {/* <Image
-                  src="/images/shape/shape-01.png"
-                  alt="shape"
-                  width={46}
-                  height={246}
-                  className="absolute -left-11.5 top-0"
-                />
-                <Image
-                  src="/images/shape/shape-02.svg"
-                  alt="shape"
-                  width={36.9}
-                  height={36.7}
-                  className="absolute bottom-0 right-0 z-10"
-                />
-                <Image
-                  src="/images/shape/shape-03.svg"
-                  alt="shape"
-                  width={21.64}
-                  height={21.66}
-                  className="absolute -right-6.5 bottom-0 z-1"
-                /> */}
-                <div className=" relative aspect-[700/444] w-full">
-                  {/* <Image
-                    className="shadow-Sigma-l dark:hidden"
-                    src="/images/nut-bolt.png"
-                    alt="Hero"
-                    fill
-                    style={{ objectFit: "contain" }}
-                  />
-                  <Image
-                    className="hidden shadow-Sigma-l dark:block"
-                    src="/images/nut-bolt.png"
-                    alt="Hero"
-                    fill
-                    style={{ objectFit: "contain" }}
-                  /> */}
-                </div>
-              </div>
+
+          </div>
+          <div>
+          <div className="home-product-content">
+              <ul className="home-product-list" style={{}}>
+               {products.categories.map((val) => <li>
+                  <a href="/">
+                  <center>
+                  <img src={val.image} width="100" height="80"/>
+                    {/* <amp-img  layout="responsive" src="images/bolts.png" alt="Bolts" title="Bolts" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset: 1ms !important;"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 80%;"></i-amphtml-sizer><img decoding="async" alt="Bolts" title="Bolts" src="images/bolts.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img> */}
+                    <h2>{val.name}</h2>
+                    </center>
+                  </a>
+              </li>)}
+              </ul>
             </div>
           </div>
         </div>
