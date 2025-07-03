@@ -23,6 +23,12 @@ export const products = {
       "name": "Washers",
       "description": "Plain washers, spring washers and custom washer solutions",
       "image": "/images/about/washers.png"
+    },
+    {
+      "id": 4,
+      "name": "Springs",
+      "description": "Plain washers, spring washers and custom washer solutions",
+      "image": "/images/about/accessories.png"
     }
   ],
   "products": [
@@ -40,7 +46,7 @@ export const products = {
       "id": 2,
       "name": "Heavy Hex Bolts",
       "category": "Bolts",
-      "description": "Heavy hex bolts are heavy profile hexagon head bolts with full and partial thread configurations. Heavy hex bolts are coupled with heavy hex nuts and heavy washers to complete the bolting assembly. Heavy hex bolts are produced in both metric and imperial sizes with imperial coarse, fine, extra fine, fixed, BSW, BSF, metric coarse, fine and extra fine threads. Heavy hex bolts are manufactured from M12 up-to M36 in metric system and from 3/8\" to 3\" in imperial system and can be further customized up to 8\" or M180.\n\nBoltPort is a manufacturer of heavy hex bolts in variety of metals and alloys across ASTM, ASME, ISO, DIN, BS, EN, SAE and Indian material specifications. We can produce these heavy hex bolts to ASME, DIN, ISO, BS, UNI, CSN, PN, EU and IFI dimensional standards.",
+      "description": "Heavy hex bolts are heavy profile hexagon head bolts with full and partial thread configurations. Heavy hex bolts are coupled with heavy hex nuts and heavy washers to complete the bolting assembly. Heavy hex bolts are produced in both metric and imperial sizes with imperial coarse, fine, extra fine, fixed, BSW, BSF, metric coarse, fine and extra fine threads. Heavy hex bolts are manufactured from M12 up-to M36 in metric system and from 3/8\" to 3\" in imperial system and can be further customized up to 8\" or M180.\n\nSigma is a manufacturer of heavy hex bolts in variety of metals and alloys across ASTM, ASME, ISO, DIN, BS, EN, SAE and Indian material specifications. We can produce these heavy hex bolts to ASME, DIN, ISO, BS, UNI, CSN, PN, EU and IFI dimensional standards.",
       "image": "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=150",
       "specifications": "{\"forming\": \"Hot & Cold Forged\", \"metric_size\": \"M10 to M100\", \"imperial_size\": \"3/8 to 8 inch\", \"threads\": \"UNC, UNF, ISO, BSW & ACME\", \"standards\": \"ASME,BS,DIN,ISO,UNI,DIN-EN\", \"sub_types\": [\"1. Fully Threaded Heavy Hex Bolts\", \"2. Partial Threaded Heavy Hex Bolts\", \"3. Metric Heavy Hex Bolts\", \"4. Imperial Heavy Hex Bolts\"]}",
       "materials": "[\"Carbon Steel\", \"Aluminum\", \"Nickel\", \"Monel\", \"Molybdenum\", \"Brass\", \"Manganese Bronze\", \"Stellite\", \"Alloy Steel\", \"Titanium\", \"Tantalum\", \"Hastelloy\", \"Copper Nickel\", \"Aluminum Bronze\", \"Tin Bronze\", \"Waspaloy\", \"Stainless Steel\", \"Copper\", \"Zirconium\", \"Incoloy\", \"Nickel Silver\", \"Silicon Bronze\", \"Nickel Aluminium Bronze\", \"Maraging\", \"Duplex Stainless Steel\", \"Super Duplex Steel\", \"Inconel\", \"Nimonic\", \"Beryllium Copper\", \"Phosphor Bronze\", \"Silicon Aluminium Bronze\", \"Tool Steel\"]",
