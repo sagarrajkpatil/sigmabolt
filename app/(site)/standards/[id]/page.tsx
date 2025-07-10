@@ -2,23 +2,25 @@
 
 import { Metadata } from "next";
 import Link from "next/link";
-import { standardsData } from "../data";
 import { notFound } from "next/navigation";
+import { standardsData } from "../data";
 
-// Metadata
+// Metadata for SEO
 export const metadata: Metadata = {
   title: "DIN Standards - Sigma SaaS Boilerplate",
   description: "Explore a list of DIN standard fasteners on Sigma Pro.",
 };
 
-// ✅ Correct typing for Page props
-type PageProps = {
+// Type-safe dynamic param
+type StandardId = keyof typeof standardsData;
+
+type Props = {
   params: {
-    id: keyof typeof standardsData;
+    id: StandardId;
   };
 };
 
-export default function Page({ params }: PageProps) {
+export default function StandardPage({ params }: Props) {
   const data = standardsData[params.id];
 
   if (!data) {
@@ -31,7 +33,7 @@ export default function Page({ params }: PageProps) {
       <br />
       <div className="all-technical-product">
         <ul>
-          {data.map((item: any) => (
+          {data.map((item) => (
             <li key={item.id}>
               <Link href={`/standards/${params.id}/${item.id}`}>
                 <div className="left-product">{item.title}</div>
@@ -45,11 +47,9 @@ export default function Page({ params }: PageProps) {
   );
 }
 
-// ✅ Must be async and return correct type
+// ✅ Static params generation for prerendering
 export async function generateStaticParams(): Promise<
-  { id: keyof typeof standardsData }[]
+  { id: StandardId }[]
 > {
-  return Object.keys(standardsData).map((id) => ({ id })) as {
-    id: keyof typeof standardsData;
-  }[];
+  return Object.keys(standardsData).map((id) => ({ id })) as { id: StandardId }[];
 }
