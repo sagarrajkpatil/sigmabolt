@@ -5,24 +5,23 @@ import Link from "next/link";
 import { standardsData } from "./data";
 import { notFound } from "next/navigation";
 
-// Metadata config
 export const metadata: Metadata = {
   title: "DIN Standards - Sigma SaaS Boilerplate",
   description: "Explore a list of DIN standard fasteners on Sigma Pro.",
 };
 
-// Correctly typed props
-type Props = {
+// ✅ Use Next.js's PageProps type directly
+interface PageProps {
   params: {
-    id: string; // Use string instead of keyof for broader compatibility
+    id: keyof typeof standardsData;
   };
-};
+}
 
-const Din = ({ params }: Props) => {
-  const data = standardsData[params.id as keyof typeof standardsData];
+const Din = ({ params }: PageProps) => {
+  const data = standardsData[params.id];
 
   if (!data) {
-    notFound(); // Return 404 if invalid type
+    notFound();
   }
 
   return (
@@ -49,7 +48,7 @@ const Din = ({ params }: Props) => {
 
 export default Din;
 
-// ✅ Ensure correct format and no implicit Promise typing
-export function generateStaticParams() {
+// ✅ Must be `async` if you're using dynamic paths (even if it doesn't `await`)
+export async function generateStaticParams() {
   return Object.keys(standardsData).map((id) => ({ id }));
 }
