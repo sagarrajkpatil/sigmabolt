@@ -2,7 +2,7 @@
 
 import { Metadata } from "next";
 import Link from "next/link";
-import { standardsData } from "./data";
+import { standardsData } from "../data";
 import { notFound } from "next/navigation";
 
 // Metadata
