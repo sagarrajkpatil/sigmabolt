@@ -5,19 +5,20 @@ import Link from "next/link";
 import { standardsData } from "./data";
 import { notFound } from "next/navigation";
 
+// Metadata
 export const metadata: Metadata = {
   title: "DIN Standards - Sigma SaaS Boilerplate",
   description: "Explore a list of DIN standard fasteners on Sigma Pro.",
 };
 
-// ✅ Use Next.js's PageProps type directly
-interface PageProps {
+// ✅ Correct typing for Page props
+type PageProps = {
   params: {
     id: keyof typeof standardsData;
   };
-}
+};
 
-const Din = ({ params }: PageProps) => {
+export default function Page({ params }: PageProps) {
   const data = standardsData[params.id];
 
   if (!data) {
@@ -26,9 +27,7 @@ const Din = ({ params }: PageProps) => {
 
   return (
     <section className="lg:pt-40 xl:pt-55 lg:pl-40 xl:pl-55">
-      <h3 style={{ color: "black", fontWeight: "bold" }}>
-        {params.id.toUpperCase()}
-      </h3>
+      <h3 style={{ color: "black", fontWeight: "bold" }}>{params.id.toUpperCase()}</h3>
       <br />
       <div className="all-technical-product">
         <ul>
@@ -44,11 +43,13 @@ const Din = ({ params }: PageProps) => {
       </div>
     </section>
   );
-};
+}
 
-export default Din;
-
-// ✅ Must be `async` if you're using dynamic paths (even if it doesn't `await`)
-export async function generateStaticParams() {
-  return Object.keys(standardsData).map((id) => ({ id }));
+// ✅ Must be async and return correct type
+export async function generateStaticParams(): Promise<
+  { id: keyof typeof standardsData }[]
+> {
+  return Object.keys(standardsData).map((id) => ({ id })) as {
+    id: keyof typeof standardsData;
+  }[];
 }
