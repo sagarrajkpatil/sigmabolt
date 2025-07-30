@@ -58,7 +58,7 @@ document.write('      <li> <a href="/pages/products/coated-fasteners/products/co
 document.write('      <li> <a href="/pages/products/springs/springs/products/springs" >Springs</a></li>');
 document.write('            </ul>');
 document.write('          </li>');
-document.write('          <li><a href="/materials/">Materials</a></li>');
+document.write('          <li><a href="/materials">Materials</a></li>');
 document.write('          <li>');
 document.write('          <a href="javascript:void(0)" class="desktop-hide">Technical</a>');
 document.write('          <a href="//technical/" class="mobile-hide">Technical</a>');
