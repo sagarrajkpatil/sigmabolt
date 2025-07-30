@@ -1,0 +1,46 @@
+
+
+@font-face {
+  font-family: "MorebiRoundedMedium";
+  src: url('gt-canary_-_morebi_rounded_medium.eot');
+  src: url('gt-canary_-_morebi_rounded_medium.eot#iefix') format('eot'), url('gt-canary_-_morebi_rounded_medium.woff') format('woff'), url('gt-canary_-_morebi_rounded_medium.ttf') format('truetype'), url('gt-canary_-_morebi_rounded_medium.svg#morebi_roundedmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "MorebiRoundedRegular";
+  src: url('gt-canary_-_morebi_rounded_regular.eot');
+  src: url('gt-canary_-_morebi_rounded_regular.eot#iefix') format('eot'), url('gt-canary_-_morebi_rounded_regular.woff') format('woff'), url('gt-canary_-_morebi_rounded_regular.ttf') format('truetype'), url('gt-canary_-_morebi_rounded_regular.svg#morebi_roundedregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'graphiksemibold';
+    src: url('graphik-semibold-webfont.eot');
+    src: url('graphik-semibold-webfont.eot#iefix') format('embedded-opentype'),
+         url('graphik-semibold-webfont.woff') format('woff'),
+         url('graphik-semibold-webfont.ttf') format('truetype'),
+         url('graphik-semibold-webfont.svg#graphiksemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'graphiklight';
+    src: url('graphik-light-webfont.eot');
+    src: url('graphik-light-webfont.eot#iefix') format('embedded-opentype'),
+         url('graphik-light-webfont.woff') format('woff'),
+         url('graphik-light-webfont.ttf') format('truetype'),
+         url('graphik-light-webfont.svg#graphiklight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

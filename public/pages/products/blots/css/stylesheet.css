@@ -1,0 +1,46 @@
+
+
+@font-face {
+  font-family: "MorebiRoundedMedium";
+  src: url('../fonts/DT394q2IeckI.eot');
+  src: url('../fonts/DT394q2IeckI.eot#iefix') format('eot'), url('../fonts/9tMzko3Cg0ni.woff') format('woff'), url('../fonts/niavpk41C8U7.ttf') format('truetype'), url('../images/R83uh3XeJIBN.svg#morebi_roundedmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "MorebiRoundedRegular";
+  src: url('../fonts/gog0V9VFZMvb.eot');
+  src: url('../fonts/gog0V9VFZMvb.eot#iefix') format('eot'), url('../fonts/WgLE8xzFyFqc.woff') format('woff'), url('../fonts/BvRYYtAgNM6C.ttf') format('truetype'), url('../images/lPBqftegxXul.svg#morebi_roundedregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'graphiksemibold';
+    src: url('../fonts/soYYhc3qrboO.eot');
+    src: url('../fonts/soYYhc3qrboO.eot#iefix') format('embedded-opentype'),
+         url('../fonts/6KdgmaweH7vf.woff') format('woff'),
+         url('../fonts/G6zilGBYsdrd.ttf') format('truetype'),
+         url('../images/IszxLEQu2cPH.svg#graphiksemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'graphiklight';
+    src: url('../fonts/DsY6Cgwl4TCL.eot');
+    src: url('../fonts/DsY6Cgwl4TCL.eot#iefix') format('embedded-opentype'),
+         url('../fonts/mHadagV91vc5.woff') format('woff'),
+         url('../fonts/CQ7t7Y14d2FX.ttf') format('truetype'),
+         url('../images/dfTcQkQPJLTQ.svg#graphiklight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
