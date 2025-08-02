@@ -129,7 +129,7 @@ document.write('<div class="footer-content-right">');
 document.write("<h4>Reach Us</h4>");
 document.write('<ul class="contact" >');
 document.write(
-  '<li class="fa fa-envelope-o" ><a href="mailto:customer@sigmaindustry.com">customer@sigmaindustry.com</a></li>'
+  '<li class="fa fa-envelope-o" ><a href="mailto:thesigmaindustry@gmail.com">thesigmaindustry@gmail.com</a></li>'
 );
 document.write(
   '<li class="fa fa-phone" title="Sigma Industry Phone Number">+91 89831 85004</li>'

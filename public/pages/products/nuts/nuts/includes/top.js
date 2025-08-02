@@ -22,7 +22,7 @@ document.write('<a href="https://nuts/faqs/" class="top-page-link">FAQ&rsquo;s</
 document.write('<a href="https://nuts/blog/" class="top-page-link">Blog</a>');
 document.write('<a href="https://nuts/supply-region/" class="top-page-link">Supply Region</a>');
 document.write('<span class="top-page-link2"><a href="https://nuts/datasheets/" >Datasheets</a></span>');
-document.write('<span class="top-page-link2"><a href="mailto:customer@sigmaindustry.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> customer@sigmaindustry.com</a></span>');
+document.write('<span class="top-page-link2"><a href="mailto:thesigmaindustry@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>thesigmaindustry@gmail.com</a></span>');
 document.write('<i class="fa fa-phone" aria-hidden="true"></i>+91 89831 85004</p>');
 document.write('</div>');
 document.write('  </div>');
