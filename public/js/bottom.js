@@ -153,7 +153,7 @@ document.write('<ul class="follow-list" >');
 // );
 
 document.write(
-  '  <li><a href="https://api.whatsapp.com/send?phone=+91 89831 85004" title="Sigma Industry Whatsapp" target="_blank" ><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>'
+  '  <li><a href="https://wa.me/+918983185004" title="Sigma Industry Whatsapp" target="_blank" ><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>'
 );
 
 // document.write('  <li><a href="https://www.youtube.com/channel/UCOaTFXb-Cc4nV41Zb0K_WgA" title="Sigma Industry Youtube Channel" target="_blank" ><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>');
