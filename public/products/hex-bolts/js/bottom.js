@@ -7,7 +7,7 @@ document.write(
   '  <a href="#" class="scrollup" title="Scroll Back to Top"><i class="fa fa-chevron-up"></i></a>'
 );
 document.write(
-  '<div class="footerpan" style="background:url(https://boltport.com/images/footer-bg.png) no-repeat #eee; back-ground-size:cover; background-position:center;">'
+  '<div class="footerpan" style="background:url(https://punefasteners.com/images/footer-bg.png) no-repeat #eee; back-ground-size:cover; background-position:center;">'
 );
 document.write('<div class="spacer2"></div>');
 document.write('<div class="wrap">');
@@ -15,109 +15,109 @@ document.write('<div class="footer-content">');
 document.write('<div class="footer-content-left">');
 document.write('<div class="footer-list">');
 document.write("<ul>");
-document.write('<li><a href="https://boltport.com/products/">Products</a>');
+document.write('<li><a href="https://punefasteners.com/products/">Products</a>');
 document.write("<ul>");
 document.write(
-  '<li><a href="https://boltport.com/products/bolts/">Bolts</a></li>'
+  '<li><a href="https://punefasteners.com/products/bolts/">Bolts</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/products/screws/">Screws</a></li>'
+  '<li><a href="https://punefasteners.com/products/screws/">Screws</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/products/stud-bolts/">Stud Bolts</a></li>'
+  '<li><a href="https://punefasteners.com/products/stud-bolts/">Stud Bolts</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/products/threaded-rods/">Threaded Rods</a></li>'
+  '<li><a href="https://punefasteners.com/products/threaded-rods/">Threaded Rods</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/products/nuts/">Nuts</a></li>'
+  '<li><a href="https://punefasteners.com/products/nuts/">Nuts</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/products/anchor-fasteners/">Anchor Fasteners</a></li>'
+  '<li><a href="https://punefasteners.com/products/anchor-fasteners/">Anchor Fasteners</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/products/washers/">Washers</a></li>'
+  '<li><a href="https://punefasteners.com/products/washers/">Washers</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/products/coated-fasteners/">Coated Fasteners</a></li>'
+  '<li><a href="https://punefasteners.com/products/coated-fasteners/">Coated Fasteners</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/products/pins/">Pins</a></li>'
+  '<li><a href="https://punefasteners.com/products/pins/">Pins</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/products/springs/">Springs</a></li>'
+  '<li><a href="https://punefasteners.com/products/springs/">Springs</a></li>'
 );
 document.write("</ul>");
 document.write("</li>");
 
-document.write('<li><a href="https://boltport.com/standards/">Standards</a>');
+document.write('<li><a href="https://punefasteners.com/standards/">Standards</a>');
 document.write("<ul>");
 document.write(
-  '<li><a href="https://boltport.com/standards/din/">German DIN</a></li>'
+  '<li><a href="https://punefasteners.com/standards/din/">German DIN</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/standards/iso/">International ISO</a></li>'
+  '<li><a href="https://punefasteners.com/standards/iso/">International ISO</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/standards/is/">Indian IS</a></li>'
+  '<li><a href="https://punefasteners.com/standards/is/">Indian IS</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/standards/bs/">British BS</a></li>'
+  '<li><a href="https://punefasteners.com/standards/bs/">British BS</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/standards/asme/">American ASME</a></li>'
+  '<li><a href="https://punefasteners.com/standards/asme/">American ASME</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/standards/uni/">Italian UNI</a></li>'
+  '<li><a href="https://punefasteners.com/standards/uni/">Italian UNI</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/standards/sae/">American SAE</a></li>'
+  '<li><a href="https://punefasteners.com/standards/sae/">American SAE</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/standards/csn/">Spanish CSN</a></li>'
+  '<li><a href="https://punefasteners.com/standards/csn/">Spanish CSN</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/standards/pn/">Polish PN</a></li>'
+  '<li><a href="https://punefasteners.com/standards/pn/">Polish PN</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/standards/eu/">European EU</a></li>'
+  '<li><a href="https://punefasteners.com/standards/eu/">European EU</a></li>'
 );
 document.write("</ul>");
 document.write("</li>");
 
 document.write(
-  '<li><a href="https://boltport.com/materials/">Bolting Materials</a>'
+  '<li><a href="https://punefasteners.com/materials/">Bolting Materials</a>'
 );
 document.write("<ul>");
 document.write(
-  '<li><a href="https://boltport.com/materials/alloy-steel/">Alloy Steel</a></li>'
+  '<li><a href="https://punefasteners.com/materials/alloy-steel/">Alloy Steel</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/materials/austenitic-stainless-steel/">Austenitic Steel</a></li>'
+  '<li><a href="https://punefasteners.com/materials/austenitic-stainless-steel/">Austenitic Steel</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/materials/carbon-steel/">Carbon Steel</a></li>'
+  '<li><a href="https://punefasteners.com/materials/carbon-steel/">Carbon Steel</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/materials/chromium-vanadium-steel/">Chromium Vanadium Steel</a></li>'
+  '<li><a href="https://punefasteners.com/materials/chromium-vanadium-steel/">Chromium Vanadium Steel</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/materials/duplex-stainless-steel/">Duplex Steel</a></li>'
+  '<li><a href="https://punefasteners.com/materials/duplex-stainless-steel/">Duplex Steel</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/materials/nickel-alloy/">Nickel Alloy</a></li>'
+  '<li><a href="https://punefasteners.com/materials/nickel-alloy/">Nickel Alloy</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/materials/super-austenitic-stainless-steel/">Super Austenitic Steel</a></li>'
+  '<li><a href="https://punefasteners.com/materials/super-austenitic-stainless-steel/">Super Austenitic Steel</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/materials/super-duplex-stainless-steel/">Super Duplex Steel</a></li>'
+  '<li><a href="https://punefasteners.com/materials/super-duplex-stainless-steel/">Super Duplex Steel</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/materials/titanium/">Titanium</a></li>'
+  '<li><a href="https://punefasteners.com/materials/titanium/">Titanium</a></li>'
 );
 document.write(
-  '<li><a href="https://boltport.com/materials/weathering-steel/">Weathering Steel</a></li>'
+  '<li><a href="https://punefasteners.com/materials/weathering-steel/">Weathering Steel</a></li>'
 );
 document.write("</ul>");
 document.write("</li>");
@@ -173,7 +173,7 @@ document.write('&copy; 2017. <a href="https://ferrobend.com" target="_blank">Fer
 document.write("</div>");
 document.write('<div class="footer-bottom-right txt_rgt">');
 document.write(
-  '<a href="https://boltport.com/contact/">Contact Us</a> | <a href="https://boltport.com/supply-region/">Supply Region</a> | <a href="https://boltport.com/microsites/" target="_blank">Microsites</a>  | <a href="https://boltport.com/sitemap/" target="_blank">Sitemap</a>'
+  '<a href="https://punefasteners.com/contact/">Contact Us</a> | <a href="https://punefasteners.com/supply-region/">Supply Region</a> | <a href="https://punefasteners.com/microsites/" target="_blank">Microsites</a>  | <a href="https://punefasteners.com/sitemap/" target="_blank">Sitemap</a>'
 );
 document.write("</div>");
 document.write("</div>");

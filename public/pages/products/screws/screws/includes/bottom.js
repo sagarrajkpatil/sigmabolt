@@ -132,10 +132,10 @@ document.write(
   '<li class="fa fa-envelope-o" ><a href="mailto:thesigmaindustry@gmail.com">thesigmaindustry@gmail.com</a></li>'
 );
 document.write(
-  '<li class="fa fa-phone" title="Sigma Industry Phone Number">+91 89831 85004</li>'
+  '<li class="fa fa-phone" title="Sigma Industry Phone Number">+91 8983185004</li>'
 );
 document.write(
-  '<li class="fa fa-home" title="Sigma Industry Address">Shriniwas, Lagad Mala, SERENE COUNTY, Sinhgad Rd, Vadgaon Khurd, Nanded Fata, Pandurang Industrial Area, Nanded, Pune, Maharashtra 411041</li>'
+  '<li class="fa fa-home" title="Sigma Industry Address">Shop No :- 2, Vivaan Building, Near Agrawal Godown, Dangat Patil Industrial Estate, Shivane, Pune :- 411023</li>'
 );
 document.write("</ul>");
 document.write('<ul class="follow-list" >');
@@ -153,7 +153,7 @@ document.write(
 );
 
 document.write(
-  '  <li><a href="https://api.whatsapp.com/send?phone=+91 89831 85004" title="Sigma Industry Whatsapp" target="_blank" ><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>'
+  '  <li><a href="https://api.whatsapp.com/send?phone=+91 8983185004" title="Sigma Industry Whatsapp" target="_blank" ><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>'
 );
 
 document.write('  <li><a href="https://www.youtube.com/channel/UCOaTFXb-Cc4nV41Zb0K_WgA" title="Sigma Industry Youtube Channel" target="_blank" ><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>');

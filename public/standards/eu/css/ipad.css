@@ -1,0 +1,83 @@
+﻿
+
+/************************************************************************************
+*	IPAD LANDSCAPE / PORTRAIT
+************************************************************************************/
+
+
+@media only screen and ( min-width: 768px) and ( max-width:1024px) {
+#headerpan { height:90px; }
+.show-in-ipad { display:block; }
+.wrap { width:98%; margin-left:1%; float:left;} 
+ul.accordion { left:2% !important; }
+.inner-body-full { margin:0px 0px 50px 0px;}
+.inner-body-left { width:22%; margin:0px 0px 35px 0px;}
+.inner-body-right { width:74%; margin:0px 0px 50px 20px;} 
+.home-products-content {display:block; width:100%; text-align:left;}
+#home-section .home-panel .wrap { height:auto;}
+ul.top-standard-list li { margin:0px 10px 50px 0px; }
+/* BODY STYLE */ 
+.f-text { width:98%; }
+ul.social-links { text-align:right; }
+ul.social-links li { margin:0px 0px 10px 10px; }
+ul.social-links li a {  font-size:18px; padding:0px; width:40px; height:40px; border-radius:40px;}
+ul.top-standard-list li { padding-bottom:60px; }
+/*ul.top-standard-list li { margin:0px 0px 50px 0px; width:70px; padding-bottom:50px; }
+ul.top-standard-list li img { max-width:70%; }*/
+
+#home-products { margin-top:15px; }
+
+.material-sitemap ul li { width:100%;}
+}
+
+/************************************************************************************
+*	IPAD PORTRAIT
+************************************************************************************/
+
+@media only screen and ( min-width: 768px) and ( max-width: 980px) {
+/*Home Page */
+.home-content { margin:0px 0px 0px 0px; }
+ul.home-products-list li { width:30%; vertical-align:top; }
+/*HOME PAGE END*/
+
+/*FOOTER STYLE */
+ul.footer-contacts li { width:49%; text-align:left; line-height:20pt; padding-bottom:10px; }
+.contact-block { width:45%; display:inline-block; vertical-align:top;}
+.contact-block-middle { width:45%; display:inline-block; vertical-align:top; padding:0px 0px 0px 0px; margin:0px 0px 20px 0px; border-right: none;  border-left:none; min-height:auto; } 
+.contact-block-hr { display:none; }
+.contact-block-ipad-hr { border-bottom:1px #ccc dotted; margin-bottom:2%; display:block; }
+}
+
+@media only screen and ( min-width: 768px) and ( max-width: 800px) {
+.hide { display:none;}
+.desktop-hide { display:block; }
+.header-logo { width:30%; text-align:center;  }
+.header-right { text-align:right; width:35%; margin:9px 0px 0px 0px; padding:0px; vertical-align:bottom; float:right; }
+.header-left { float:left; text-align:left; width:30%; margin:5px 0px 0px 0px; padding:0px;  }
+ul.call-action li { text-align:left; float:left; }
+
+ul.productss-list li { width:100%; max-width:200px; margin:0 2% 2%;}
+
+}
+
+@media only screen and ( max-width: 768px) {
+	
+	
+	}
+
+
+/************************************************************************************
+*	IPAD LANDSCAPE
+************************************************************************************/
+
+@media only screen and ( min-width: 981px) and ( max-width:1024px) {
+/*FOOTER STYLE */
+
+
+ 
+}
+
+
+
+
+

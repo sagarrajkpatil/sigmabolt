@@ -23,7 +23,7 @@ document.write('<a href="/faqs/faqs" class="top-page-link">FAQ&rsquo;s</a>');
 // document.write('<a href="//supply-region/" class="top-page-link">Supply Region</a>');
 document.write('<span class="top-page-link2"><a href="/datasheets/datasheets" >Datasheets</a></span>');
 document.write('<span class="top-page-link2"><a href="mailto:thesigmaindustry@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>thesigmaindustry@gmail.com</a></span>');
-document.write('<i class="fa fa-phone" aria-hidden="true"></i>+91 89831 85004</p>');
+document.write('<i class="fa fa-phone" aria-hidden="true"></i>+91 8983185004</p>');
 document.write('</div>');
 document.write('  </div>');
  document.write(' </div>');

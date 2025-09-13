@@ -18,34 +18,23 @@ document.write("<ul>");
 document.write('<li><a href="https://sigma.punefasteners.com/products/">Products</a>');
 document.write("<ul>");
 document.write(
-  '<li><a href="https://sigma.punefasteners.com/products/bolts/">Bolts</a></li>'
+  '<li><a href="https://sigma.punefasteners.com/pages/products/blots/">Bolts</a></li>'
 );
 document.write(
-  '<li><a href="https://sigma.punefasteners.com/products/screws/">Screws</a></li>'
+  '<li><a href="https://sigma.punefasteners.com/pages/products/screws/screws/products/screws/">Screws</a></li>'
 );
 document.write(
-  '<li><a href="https://sigma.punefasteners.com/products/stud-bolts/">Stud Bolts</a></li>'
+  '<li><a href="https://sigma.punefasteners.com/pages/products/stud-bolts/stud-bolts/products/stud-bolts/">Stud Bolts</a></li>'
 );
 document.write(
-  '<li><a href="https://sigma.punefasteners.com/products/threaded-rods/">Threaded Rods</a></li>'
+  '<li><a href="https://sigma.punefasteners.com/pages/products/nuts/nuts/products/nuts/">Nuts</a></li>'
+);
+
+document.write(
+  '<li><a href="https://sigma.punefasteners.com/pages/products/washers/washers/products/washers/">Washers</a></li>'
 );
 document.write(
-  '<li><a href="https://sigma.punefasteners.com/products/nuts/">Nuts</a></li>'
-);
-document.write(
-  '<li><a href="https://sigma.punefasteners.com/products/anchor-fasteners/">Anchor Fasteners</a></li>'
-);
-document.write(
-  '<li><a href="https://sigma.punefasteners.com/products/washers/">Washers</a></li>'
-);
-document.write(
-  '<li><a href="https://sigma.punefasteners.com/products/coated-fasteners/">Coated Fasteners</a></li>'
-);
-document.write(
-  '<li><a href="https://sigma.punefasteners.com/products/pins/">Pins</a></li>'
-);
-document.write(
-  '<li><a href="https://sigma.punefasteners.com/products/springs/">Springs</a></li>'
+  '<li><a href="https://sigma.punefasteners.com/pages/products/springs/springs/products/springs/">Springs</a></li>'
 );
 document.write("</ul>");
 document.write("</li>");
@@ -132,10 +121,10 @@ document.write(
   '<li class="fa fa-envelope-o" ><a href="mailto:thesigmaindustry@gmail.com">thesigmaindustry@gmail.com</a></li>'
 );
 document.write(
-  '<li class="fa fa-phone" title="Sigma Industry Phone Number">+91 89831 85004</li>'
+  '<li class="fa fa-phone" title="Sigma Industry Phone Number">+91 8983185004</li>'
 );
 document.write(
-  '<li class="fa fa-home" title="Sigma Industry Address">Shriniwas, Lagad Mala, SERENE COUNTY, Sinhgad Rd, Vadgaon Khurd, Nanded Fata, Pandurang Industrial Area, Nanded, Pune, Maharashtra 411041</li>'
+  '<li class="fa fa-home" title="Sigma Industry Address">Shop No :- 2, Vivaan Building, Near Agrawal Godown, Dangat Patil Industrial Estate, Shivane, Pune :- 411023</li>'
 );
 document.write("</ul>");
 document.write('<ul class="follow-list" >');
