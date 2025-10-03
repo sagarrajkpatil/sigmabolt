@@ -34,7 +34,7 @@ document.write('      <!-- :::: HEADER CONTENT STARTS :::: -->');
 document.write('      <div class="header-content" >');
 document.write('      <!--:::: MAIN MENU ::::-->');
 document.write('      <div class="header-logo">');
-document.write('      <a href="https://punefasteners.com/"> <img src="https://punefasteners.com/images/boltport-fasteners-logo.png" alt="Boltport Fasteners Logo" title="Boltport Fasteners Logo"></a>');
+document.write('      <a href="https://punefasteners.com/"> <img src="https://punefasteners.com/images/boltport-fasteners-logo.png" alt="Sigma Fasteners Logo" title="Sigma Fasteners Logo"></a>');
 document.write('      </div>');
       
 document.write('      <nav>');

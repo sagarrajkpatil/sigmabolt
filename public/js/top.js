@@ -35,7 +35,7 @@ document.write('      <!-- :::: HEADER CONTENT STARTS :::: -->');
 document.write('      <div class="header-content" >');
 document.write('      <!--:::: MAIN MENU ::::-->');
 document.write('      <div class="header-logo">');
-document.write('      <a href="/"> <img style="" src="/images/logo.webp" alt="Sigma Industry Fasteners Logo" title="Sigma Industry Fasteners Logo"></a>');
+document.write('      <a href="/"> <img style="" src="/images/logo.webp" alt="Sigma Industries Fasteners Logo" title="Sigma Industries Fasteners Logo"></a>');
 document.write('      </div>');
 document.write('      <nav>');
 document.write('      <div class="nav-fostrap">');

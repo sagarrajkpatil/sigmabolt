@@ -121,33 +121,33 @@ document.write(
   '<li class="fa fa-envelope-o" ><a href="mailto:thesigmaindustry@gmail.com">thesigmaindustry@gmail.com</a></li>'
 );
 document.write(
-  '<li class="fa fa-phone" title="Sigma Industry Phone Number">+91 8983185004</li>'
+  '<li class="fa fa-phone" title="Sigma Industries Phone Number">+91 8983185004</li>'
 );
 document.write(
-  '<li class="fa fa-home" title="Sigma Industry Address">Shop No :- 2, Vivaan Building, Near Agrawal Godown, Dangat Patil Industrial Estate, Shivane, Pune :- 411023</li>'
+  '<li class="fa fa-home" title="Sigma Industries Address">Shop No :- 2, Vivaan Building, Near Agrawal Godown, Dangat Patil Industrial Estate, Shivane, Pune :- 411023</li>'
 );
 document.write("</ul>");
 document.write('<ul class="follow-list" >');
 // document.write(
-//   '  <li><a href="https://www.facebook.com/Sigma/" title="Sigma Industry Facebook Page" target="_blank" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>'
+//   '  <li><a href="https://www.facebook.com/Sigma/" title="Sigma Industries Facebook Page" target="_blank" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>'
 // );
 // document.write(
-//   '  <li><a href="https://www.instagram.com/Sigma_pipe_fittings/" title="Sigma Industry Instagram Page" target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i></a></li>'
+//   '  <li><a href="https://www.instagram.com/Sigma_pipe_fittings/" title="Sigma Industries Instagram Page" target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i></a></li>'
 // );
 // document.write(
-//   '  <li><a href="https://twitter.com/Sigma/" title="Sigma Industry Twitter Page" target="_blank" ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>'
+//   '  <li><a href="https://twitter.com/Sigma/" title="Sigma Industries Twitter Page" target="_blank" ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>'
 // );
 // document.write(
-//   '  <li><a href="https://in.linkedin.com/in/iamsamkit" title="Sigma Industry Linkedin Page" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>'
+//   '  <li><a href="https://in.linkedin.com/in/iamsamkit" title="Sigma Industries Linkedin Page" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>'
 // );
 
 document.write(
-  '  <li><a href="https://wa.me/+918983185004" title="Sigma Industry Whatsapp" target="_blank" ><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>'
+  '  <li><a href="https://wa.me/+918983185004" title="Sigma Industries Whatsapp" target="_blank" ><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>'
 );
 
-// document.write('  <li><a href="https://www.youtube.com/channel/UCOaTFXb-Cc4nV41Zb0K_WgA" title="Sigma Industry Youtube Channel" target="_blank" ><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>');
+// document.write('  <li><a href="https://www.youtube.com/channel/UCOaTFXb-Cc4nV41Zb0K_WgA" title="Sigma Industries Youtube Channel" target="_blank" ><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>');
 
-// document.write('  <li><a href="https://in.pinterest.com/Sigma/" title="Sigma Industry Pinterest Page" target="_blank" ><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>');
+// document.write('  <li><a href="https://in.pinterest.com/Sigma/" title="Sigma Industries Pinterest Page" target="_blank" ><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>');
 
 document.write(" </ul>		");
 document.write('  <div id="clockbox"></div>');

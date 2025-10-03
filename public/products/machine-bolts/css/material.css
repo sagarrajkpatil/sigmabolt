@@ -1,0 +1,387 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header-container {
+	background: url(../images/bolts-screws-nuts.jpg) no-repeat top center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+.heavy-container {
+	background: url(../images/heavy.jpg) no-repeat top center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+header {
+	background-color: transparent;
+	border-top: 3px solid #fff;
+}
+
+.top-header {
+	border-bottom: none;
+	background-color: transparent;
+}
+
+.header-logo {
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+	padding: 10px 10px 0px 0px;
+}
+
+.top-header-details {
+	position: relative;
+	background: #fff;
+	margin: 0px;
+	padding: 6px 10px;
+	width: 72%;
+}
+
+.top-header-details:before {
+	position: absolute;
+	border-right: 26px solid #fff;
+	border-left: 26px solid transparent;
+	border-bottom: 38px solid transparent;
+	top: 0;
+	left: -52px;
+	content: "";
+}
+
+.nav-fostrap li a {
+	color: #fff;
+}
+
+h1 {
+	font-size: 46px !important;
+	margin: 10px 0px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+ul.anchor-link {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+ul.anchor-link li {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+ul.anchor-link li a {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-size: 22px;
+	line-height: 28pt;
+	text-decoration: underline;
+}
+
+ul.anchor-link li a:hover {
+	color: #fff;
+}
+
+.second-wrap {
+	position: relative;
+	top: 15%;
+}
+
+.white-bg-section {
+	background: #fff;
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+}
+
+.blue-bg-section {
+	background: #003b76;
+	float: left;
+	width: 100%;
+	padding: 50px 0px;
+}
+
+.grey-bg-section {
+	background: #ddd;
+	padding: 50px 0px;
+	float: left;
+	width: 100%;
+}
+
+
+.home-product {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.home-product ul {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.home-product ul li {
+	width: 100%;
+	max-width: 250px;
+	list-style: none;
+	float: left;
+	border: 1px solid #003b76;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+	height: 150px;
+}
+
+.home-product ul li:hover {
+	border: 1px solid #ff8000;
+}
+
+.home-product ul li a img {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+}
+
+.home-product ul li a:hover img {
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.home-product ul li a .overlay-bg {
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	-moz-transition: opacity, 0.3s;
+	-o-transition: opacity, 0.3s;
+	-webkit-transition: opacity, 0.3s;
+	transition: opacity, 0.3s;
+}
+
+.home-product ul li a:hover .overlay-bg {
+	opacity: 1;
+}
+
+.home-product ul li a .overlay-bg p {
+	color: #fff;
+	font-size: 22px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.home-product ul li a:hover img,
+.home-product ul li a:hover .overlay-bg {
+	-moz-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	-webkit-transition: all, 0.5s;
+	transition: all, 0.5s;
+}
+
+.introduction-left {
+	float: left;
+	width: 38%;
+	text-align: center;
+}
+
+.introduction-left img {
+	width: 100%;
+	max-width: 300px;
+}
+
+.introduction-right {
+	float: right;
+	width: 60%;
+}
+
+.introduction-right img {
+	width: 100%;
+	max-width: 300px;
+}
+
+.material-left {
+	width: 58%;
+	float: left;
+}
+
+.material-right {
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+
+
+.bolting-benefits-left {
+	float: left;
+	width: 40%;
+}
+
+.bolting-benefits-left ul {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.bolting-benefits-left ul li {
+	float: left;
+	padding: 0px;
+	margin: 0px 5px 0px 0px;
+	overflow: hidden;
+}
+
+.bolting-benefits-left ul li img {
+	width: 100%;
+	max-width: 120px;
+	height: auto;
+}
+
+.bolting-benefits-left ul li:hover img {
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.bolting-benefits-left ul li:hover img {
+	-moz-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	-webkit-transition: all, 0.5s;
+	transition: all, 0.5s;
+}
+
+.bolting-benefits-right {
+	float: right;
+	width: 60%;
+}
+
+
+
+.request-button {
+	margin-top: 40px;
+	background: #003b76;
+	border-radius: 10px;
+	padding: 10px 0px;
+	border: 1px solid #003b76;
+	display: inline-block;
+}
+
+.request-button a {
+	color: #fff;
+	text-decoration: none;
+	padding: 4px 15px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.request-button:hover {
+	background: #fff;
+}
+
+.request-button:hover a {
+	color: #003b76;
+}
+
+.request-button a .fa {
+	font-size: 30px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+table.simple-table {
+	width: 100%;
+	margin-top: 10px;
+	border-top: 3px solid #fff;
+}
+
+/*table.simple-table thead {background:#f4f4f4;}*/
+table.simple-table thead tr {
+	background: #003b76;
+}
+
+table.simple-table thead tr th {
+	padding: 30px 0px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #fff;
+	font-size: 18px;
+}
+
+table.simple-table tbody tr {
+	background: #003b76;
+}
+
+table.simple-table tbody tr td {
+	padding: 20px 0px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #fff;
+}
+
+table.simple-table tbody tr td a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+table.simple-table tbody tr td a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+table.rtable {
+	width: 100%;
+	margin-top: 10px;
+	border-top: 3px solid #fff;
+}
+
+/*table.rtable thead {background:#f4f4f4;}*/
+table.rtable thead tr {
+	background: #003b76;
+}
+
+table.rtable thead tr th {
+	padding: 30px 0px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #fff;
+	font-size: 18px;
+}
+
+table.rtable tbody tr {
+	background: #003b76;
+}
+
+table.rtable tbody tr td {
+	padding: 20px 0px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #fff;
+}
+
+table.rtable tbody tr td a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+table.rtable tbody tr td a:hover {
+	color: #fff;
+	text-decoration: none;
+}

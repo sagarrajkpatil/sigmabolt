@@ -34,7 +34,7 @@ document.write('      <!-- :::: HEADER CONTENT STARTS :::: -->');
 document.write('      <div class="header-content" >');
 document.write('      <!--:::: MAIN MENU ::::-->');
 document.write('      <div class="header-logo">');
-document.write('      <a href="https://screws/"> <img src="https://screws/images/SigmaIndustry-fasteners-logo.png" alt="SigmaIndustry Fasteners Logo" title="SigmaIndustry Fasteners Logo"></a>');
+document.write('      <a href="https://screws/"> <img src="https://screws/images/SigmaIndustry-fasteners-logo.png" alt="SigmaIndustries Fasteners Logo" title="SigmaIndustries Fasteners Logo"></a>');
 document.write('      </div>');
       
 document.write('      <nav>');
